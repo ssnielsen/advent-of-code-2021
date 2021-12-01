@@ -1,0 +1,22 @@
+{
+    "name": "advent-of-code-2021",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@types/jest": "^27.0.3",
+        "@types/node": "^16.11.11",
+        "@types/ramda": "^0.27.58",
+        "jest": "^27.4.3",
+        "ramda": "^0.27.1",
+        "ts-jest": "^27.0.7",
+        "typescript": "4.5.2"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "node src/app.js",
+        "watch": "tsc -w",
+        "test": "jest",
+        "test-watch": "jest --watch"
+    }
+}
