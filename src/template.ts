@@ -3,7 +3,7 @@
 
 // export const part1 = () => 42;
 
-// export const parse = (input: any) => null;
+// export const parse = (input: string[]) => null;
 
 // export const run = () => {
 //     const input = loadInput('2021-01');
