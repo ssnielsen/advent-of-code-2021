@@ -18,3 +18,5 @@ export const loadRawInput = (day: string) =>
 
 export const hasValue = <T>(thing: T | undefined | null): thing is T =>
     Boolean(thing);
+
+export const forceUnwrap = <T>(thing: T): NonNullable<T> => thing!;
