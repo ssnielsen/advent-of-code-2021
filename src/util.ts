@@ -20,3 +20,8 @@ export const hasValue = <T>(thing: T | undefined | null): thing is T =>
     Boolean(thing);
 
 export const forceUnwrap = <T>(thing: T): NonNullable<T> => thing!;
+
+export const cast =
+    <T, U>() =>
+    (thing: T): U =>
+        thing as unknown as U;
