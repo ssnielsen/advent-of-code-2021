@@ -667,6 +667,11 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
+"@mobily/ts-belt@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@mobily/ts-belt/-/ts-belt-3.3.0.tgz#638c204ceb4aa16565d64d2618205d49ad279872"
+  integrity sha512-MUVjk3Ngd1yDBCmdwF8PVow0bDqgnNp9rpgNBeFnSWVo6dYMDTLnhDzHhsm+pRzf4dhhWEvyLkFYWmmqlt4V7w==
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.1.tgz#e7df00f98a203324f6dc7cc606cad9d4a8ab2217"
